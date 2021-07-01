@@ -14,11 +14,73 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-image: url('preimg.png');
-}
+    background-image: url('plain.jpg');
+}.container{
+    position: relative;
+  text-align:left;
+  color:rgb(243, 243, 236);
+    }
+    .left{
+      font-size: 25px;
+      display: inline-block;
+      margin: 12px;
+      position: absolute;
+      left: 34px;
+      top: 200px;
+    }
+    .right{
+        margin: 12px;
+      display: inline-block;
+     
+      position: absolute;
+      right: 80px;
+      top: 250px;
+
+    }
+    .right img{
+        width: 550px;
+    }
+    .mid{
+        font-size: 35px;
+        color:ivory ;
+        width: 50%;
+      margin: 60px auto;
+    }
+    .text{
+        text-align: right;
+        margin-top: 600px;
+        margin-right: 80px;
+        font-size: 25px;
+    }
+          
+
+
+    
 </style>
 <body>
-    <h1 style="font-size: 60px";><center>Symptoms of Covid-19</center></h1>
+<class="container">
+    <div class ="left">
+    <ul><h3>Most Common Symptoms</h3>
+    <li>Fever</li>
+    <li>Dry cough</li>
+    <li>Tiredness</li></ul>
+    <ul><h3>Less Common Symptoms</h3>
+        <li>Aches and Pains</li>
+        <li>Sore Throat</li>
+        <li>Diarrhoea</li>
+        <li>Headache</li>
+    </ul>
+        <ul><h3>Serious Symptoms</h3>
+            <li>Difficulty in breathing </li>
+            <li>Chest Pain or Pressure</li>
+            <li>Loss of Speech or Movement</li></ul>
+
+    </div>
+     <div class="right">
+     <img src="sym.png" >
+     </div>
     
+     <div class="mid"><h1>Symptoms</h1></div>
+     <p class="text"><a href="vaccine.html">Next</a></p>
 </body>
 </html>

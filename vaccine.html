@@ -15,20 +15,68 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-image: url('plain.jpg');
-}
+}.container{
+    position: relative;
+  text-align:left;
+  color:rgb(243, 243, 236);
+    }
+    .left{
+      font-size: 25px;
+      display: inline-block;
+      margin: 12px;
+      position: absolute;
+      left: 34px;
+      top: 200px;
+    }
+    .right{
+        margin: 12px;
+      display: inline-block;
+     
+      position: absolute;
+      right: 80px;
+      top: 170px;
+
+    }
+    .right img{
+        width: 400px;
+    }
+    .mid{
+        font-size: 35px;
+        color:ivory ;
+        width: 50%;
+      margin: 60px auto;
+    }
+    .text{
+        text-align: right;
+        margin-top: 500px;
+        margin-right: 80px;
+        font-size: 25px;
+    }
+          
+
 
     
 </style>
 <body>
-    <h1 style="font-size: 60px";><center>Vaccination</center></h1><br>
-    <br>
-    <br>
-    <br>
-    <img src="vacc.png"  align="right" >
-    <h4 style="font-size: 25px;">
+<class="container">
+    <div class ="left">
         A vaccine activates our immune system without making us sick.<br>
-         Many dangerous infectious diseases can be prevented in this simple and effective way.
-    </h4>
-      </div>
+        Many dangerous infectious diseases can be prevented in this <br>
+        simple and effective way.Safe and effective vaccines are a <br>
+        game-changing tool: but for the foreseeable future we must continue<br>
+         wearing masks, cleaning our hands, ensuring good ventilation indoors, <br>
+         physically distancing and avoiding crowds. Being vaccinated does not<br>
+          mean that we can throw caution to the wind and put ourselves and others<br>
+           at risk, particularly because research is still ongoing into how much<br>
+            vaccines protect not only against disease but also against infection<br>
+             and transmission.
+
+    </div>
+     <div class="right">
+     <img src="vacc.png" >
+     </div>
+    
+     <div class="mid"><h1>Vaccination</h1></div>
+     <p class="text"><a href="index.html">Go to Home</a></p>
 </body>
 </html>
